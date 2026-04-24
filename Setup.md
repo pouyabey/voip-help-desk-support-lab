@@ -98,6 +98,18 @@ The IVR configuration was saved after the greeting and keypad routing options we
 
 ![IVR Saved](screenshots/setup-12-ivr-saved.png)
 
+### 12. Configured Office Hours and Added Break Hours and 
+
+Office hours were configured to define the normal business schedule for the VoIP environment.
+
+![Office Hours](screenshots/setup-13-office-hours.png)
+
+### 13. Reviewed Office Hours Routing
+
+Office hours routing was reviewed to confirm how calls would be handled during closed hours, breaks, and holidays.
+
+![Office Hours Routing](screenshots/setup-14-office-hours-routing.png)
+
 
 
 
