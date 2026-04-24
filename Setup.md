@@ -85,6 +85,8 @@ A queue was created to simulate support call distribution across multiple users 
 ![Queue General](screenshots/setup-09-queue-general.png)
 
 
+
+
 ## Setup Result
 
 At the end of the initial setup:
