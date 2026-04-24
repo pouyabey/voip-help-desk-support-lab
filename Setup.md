@@ -90,7 +90,7 @@ A queue was created to simulate support call distribution across multiple users 
 A digital receptionist was created to route callers to the correct destination based on keypad input.
 Keypad options were mapped to the correct destinations so callers could be routed to an extension, queue, or ring group.
 
-![IVR General](screenshots/setup/setup-11-ivr-general.png)
+![IVR General](screenshots/setup-10-ivr-general.png)
 
 
 
