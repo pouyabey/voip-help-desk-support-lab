@@ -1,35 +1,34 @@
 # VoIP Help Desk Support Lab
 
-This project documents a hands-on VoIP support lab focused on common help desk and entry-level IT support tasks.
+This project is a small VoIP support lab built around the kind of tasks that can come up in help desk and entry-level IT support work.
 
-The lab covers user setup, softphone configuration, internal call testing, call routing, and basic troubleshooting in a small business VoIP environment.
+I used this lab to practice setting up users, connecting softphone clients, testing internal calls, and checking how call routing works in a small business 3CX environment.
 
 ## Project Overview
 
-In this lab, I set up a small business VoIP environment and documented both the initial configuration process and selected support-style test scenarios.
+The lab started with the basic 3CX setup and then moved into a few support-style scenarios that felt more like real troubleshooting than just system configuration.
 
-The project focuses on tasks that are relevant to help desk, IT support, and systems support roles, including:
+The main areas covered in this project include:
 
-- user and extension setup
-- Windows softphone configuration
-- internal extension calling
-- ring group configuration and validation
-- queue configuration
-- IVR / digital receptionist setup
-- office hours configuration
-- troubleshooting documentation
+- creating users and extensions
+- setting up the Windows softphone
+- testing internal extension-to-extension calls
+- creating and testing a ring group
+- configuring a queue
+- setting up an IVR / digital receptionist
+- configuring office hours
+- documenting support-style scenarios
 
 ## Skills Used
 
 - User provisioning and extension management
 - Softphone setup and configuration
-- Internal call testing and validation
-- Call routing configuration
-- Ring group setup and testing
+- Internal call testing
+- Call routing setup
+- Ring group setup and validation
 - IVR configuration
 - Basic VoIP troubleshooting
 - Technical documentation
-- End-user support simulation
 
 ## Lab Environment
 
@@ -51,52 +50,45 @@ The project focuses on tasks that are relevant to help desk, IT support, and sys
 
 ### Initial Setup
 
-The initial system setup, including user creation, softphone setup, ring group creation, queue creation, IVR setup, and office hours configuration, is documented in [setup.md](Setup.md).
+The initial buildout of the lab is documented in [setup.md](setup.md). This includes user creation, softphone setup, ring group creation, queue setup, IVR configuration, and office hours.
 
 ### Support Scenarios
 
-The following support-style scenarios have been documented so far:
+So far, I have documented these support-style scenarios:
 
 - [Ticket 01 - Windows softphone not provisioned](tickets/ticket-01-softphone-provision.md)
 - [Ticket 02 - Internal call test between extensions](tickets/ticket-02-internal-call.md)
 - [Ticket 03 - Ring Group routing test](tickets/ticket-03-ring-group-test.md)
 
-## Key Configurations Completed
+## What Was Configured
 
 ### User and Extension Setup
-Created multiple users and internal extensions for a small business VoIP support environment.
+Created multiple users and internal extensions to build out the lab environment.
 
 ### Softphone Configuration
-Set up and connected the 3CX Windows softphone for test users.
+Connected the 3CX Windows softphone for test users and confirmed it was ready for use.
 
 ### Internal Calling
-Tested extension-to-extension calling and confirmed basic internal communication between endpoints.
+Tested internal calling between extensions to make sure communication between users was working correctly.
 
 ### Ring Group Configuration
-Configured and tested a ring group to support shared inbound call handling.
+Set up and tested a ring group for shared inbound call handling.
 
 ### Queue Configuration
-Built a help desk queue for support call distribution across users.
+Created a help desk queue to support basic call distribution across users.
 
 ### IVR / Digital Receptionist
-Configured menu-based call routing for different destinations within the VoIP environment.
+Configured a simple menu to route callers to the right destination.
 
 ### Office Hours Configuration
-Set up business hours and related call-handling behavior for the lab environment.
+Set business hours for the lab and reviewed how call handling could change based on time of day.
 
 ## Screenshots
 
-Project screenshots are organized in the `screenshots/` folder by setup stage and support scenario.
+Screenshots are organized in the `screenshots/` folder by setup stage and support scenario.
 
-## Why This Project Matters
+## Why I Built This Project
 
-This project shows hands-on work related to:
+I wanted a project that was closer to the kind of work done in IT support than a purely technical phone-system build.
 
-- help desk support workflows
-- VoIP user setup and support
-- softphone configuration
-- internal call validation
-- call routing configuration
-- troubleshooting and documentation
-
-It was built around the kind of tasks that can come up in IT support, help desk, and systems support roles.
+This lab gave me a way to practice basic VoIP setup, user-side support tasks, internal calling checks, and call routing in a format that I could document clearly on GitHub.
