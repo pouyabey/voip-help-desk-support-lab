@@ -38,12 +38,8 @@ The assigned users were reviewed to confirm that multiple extensions were includ
 A test call was placed to the ring group extension to verify that inbound routing reached the assigned users.
 
 ![Ring Group Ringing](../screenshots/ticket-03-03-ring-group-ringing.png)
-
-### 4. Confirmed the Call Was Answered
-
-One of the assigned users answered the call successfully, confirming that the ring group routing was working as expected.
-
-![Ring Group Call Answered](../screenshots/ticket-03-04-ring-group-call-answered.png)
+![Ring Group Ringing](../screenshots/ticket-03-04-ring-group-ringing.png)
+![Ring Group Ringing](../screenshots/ticket-03-05-ring-group-ringing.png)
 
 ## Result
 
