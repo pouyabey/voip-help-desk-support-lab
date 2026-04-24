@@ -39,7 +39,7 @@ A test call was placed to the ring group extension to verify that inbound routin
 
 ![Ring Group Ringing](../screenshots/ticket-03-03-ring-group-ringing.jpg)
 ![Ring Group Ringing](../screenshots/ticket-03-04-ring-group-ringing.jpg)
-![Ring Group Ringing](../screenshots/ticket-03-05-ring-group-ringing.jpg)
+![Ring Group Ringing](../screenshots/ticket-03-05-ring-group-ringing.png)
 
 ## Result
 
