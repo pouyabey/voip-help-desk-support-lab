@@ -25,25 +25,25 @@ The goal of this test was to confirm that extension-to-extension calling worked 
 
 The calling endpoint was reviewed to confirm that the user was signed in and ready to place an internal call.
 
-![Caller Ready](../screenshots/ticket-02-01-caller-ready.png)
+![Caller Ready](../screenshots/ticket-02-01-caller-ready.jpg)
 
 ### 2. Placed an Internal Call
 
 An internal call was placed from one extension to another to test extension-to-extension communication.
 
-![Call Ringing](../screenshots/ticket-02-02-call-ringing.png)
+![Call Ringing](../screenshots/ticket-02-02-call-ringing.jpg)
 
 ### 3. Confirmed the Call Was Connected
 
 The receiving user answered the call, confirming that internal calling was working successfully between both extensions.
 
-![Call Connected](../screenshots/ticket-02-03-call-connected.png)
+![Call Connected](../screenshots/ticket-02-03-call-connected.jpg)
 
 ### 4. Reviewed Call Activity
 
 Call activity was reviewed after the test to confirm that the internal call had been completed successfully.
 
-![Call History](../screenshots/ticket-02-04-call-history.png)
+![Call History](../screenshots/ticket-02-04-call-history.jpg)
 
 ## Result
 
