@@ -85,6 +85,14 @@ A queue was created to simulate support call distribution across multiple users 
 ![Queue General](screenshots/setup-09-queue-general.png)
 
 
+### 11. Created a Digital Receptionist and Configured IVR Key Routing
+
+A digital receptionist was created to route callers to the correct destination based on keypad input.
+Keypad options were mapped to the correct destinations so callers could be routed to an extension, queue, or ring group.
+
+![IVR General](screenshots/setup/setup-11-ivr-general.png)
+
+
 
 
 ## Setup Result
