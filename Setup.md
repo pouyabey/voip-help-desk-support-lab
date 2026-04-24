@@ -77,6 +77,14 @@ Users were added to the ring group so incoming calls could be routed to multiple
 
 ![Ring Group Users](screenshots/setup-08-ring-group-users.png)
 
+
+### 9. Created a Queue
+
+A queue was created to simulate support call distribution across multiple users in a small help desk environment.
+
+![Queue General](screenshots/setup-09-queue-general.png)
+
+
 ## Setup Result
 
 At the end of the initial setup:
