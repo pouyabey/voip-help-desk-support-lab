@@ -70,7 +70,7 @@ Configured menu-based call routing for different departments.
 Set up business hours and after-hours call behavior.
 
 ## Ticket Scenarios
-## NOT COMPLETED YET, SO FAR Setup.md is completed. 
+## NOT COMPLETED YET, SO FAR Setup.md IS COMPLETED. 
 Detailed ticket-style documentation for each scenario is available in the `docs/` folder:
 
 - [Ticket 01 - User cannot sign in to 3CX Web Client](docs/ticket-01-login-issue.md)
