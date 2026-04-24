@@ -51,7 +51,7 @@ The project focuses on tasks that are relevant to help desk, IT support, and sys
 
 ### Initial Setup
 
-The initial system setup, including user creation, softphone setup, ring group creation, queue creation, IVR setup, and office hours configuration, is documented in [setup.md](setup.md).
+The initial system setup, including user creation, softphone setup, ring group creation, queue creation, IVR setup, and office hours configuration, is documented in [setup.md](Setup.md).
 
 ### Support Scenarios
 
