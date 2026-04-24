@@ -2,30 +2,30 @@
 
 This project documents a hands-on VoIP support lab focused on common help desk and entry-level IT support tasks.
 
-The lab covers user setup, softphone provisioning, internal call testing, call routing, and basic troubleshooting in a small business VoIP environment.
+The lab covers user setup, softphone configuration, internal call testing, call routing, and basic troubleshooting in a small business VoIP environment.
 
 ## Project Overview
 
-In this lab, I set up a small business VoIP environment and documented both the configuration process and several support-style test scenarios.
+In this lab, I set up a small business VoIP environment and documented both the initial configuration process and selected support-style test scenarios.
 
 The project focuses on tasks that are relevant to help desk, IT support, and systems support roles, including:
 
 - user and extension setup
-- softphone deployment
-- internal calling tests
-- ring group configuration
+- Windows softphone configuration
+- internal extension calling
+- ring group configuration and validation
 - queue configuration
 - IVR / digital receptionist setup
-- office hours and after-hours routing
+- office hours configuration
 - troubleshooting documentation
 
 ## Skills Used
 
 - User provisioning and extension management
-- Softphone setup and client provisioning
+- Softphone setup and configuration
 - Internal call testing and validation
 - Call routing configuration
-- Ring group and queue setup
+- Ring group setup and testing
 - IVR configuration
 - Basic VoIP troubleshooting
 - Technical documentation
@@ -36,6 +36,7 @@ The project focuses on tasks that are relevant to help desk, IT support, and sys
 - VoIP Platform: 3CX Hosted / SMB environment
 - Client: 3CX Web Client
 - Softphone: 3CX Windows App
+- Mobile Endpoints: iOS and Android softphone clients
 - Test Setup: Multiple internal user extensions
 - Documentation Format: GitHub Markdown with screenshots
 
@@ -46,44 +47,46 @@ The project focuses on tasks that are relevant to help desk, IT support, and sys
 - 103 - Sales Agent
 - 104 - Manager
 
+## Project Documentation
+
+### Initial Setup
+
+The initial system setup, including user creation, softphone setup, ring group creation, queue creation, IVR setup, and office hours configuration, is documented in [setup.md](setup.md).
+
+### Support Scenarios
+
+The following support-style scenarios have been documented so far:
+
+- [Ticket 01 - Windows softphone not provisioned](tickets/ticket-01-softphone-provision.md)
+- [Ticket 02 - Internal call test between extensions](tickets/ticket-02-internal-call.md)
+- [Ticket 03 - Ring Group routing test](tickets/ticket-03-ring-group-test.md)
+
 ## Key Configurations Completed
 
 ### User and Extension Setup
-Created multiple users and internal extensions for a small business support environment.
+Created multiple users and internal extensions for a small business VoIP support environment.
 
-### Softphone Provisioning
-Provisioned the 3CX Windows softphone for test users and confirmed successful client setup.
+### Softphone Configuration
+Set up and connected the 3CX Windows softphone for test users.
 
 ### Internal Calling
-Tested extension-to-extension calling and confirmed basic internal communication.
+Tested extension-to-extension calling and confirmed basic internal communication between endpoints.
 
 ### Ring Group Configuration
-Configured a front desk ring group for shared inbound call handling.
+Configured and tested a ring group to support shared inbound call handling.
 
 ### Queue Configuration
 Built a help desk queue for support call distribution across users.
 
 ### IVR / Digital Receptionist
-Configured menu-based call routing for different departments.
+Configured menu-based call routing for different destinations within the VoIP environment.
 
-### Office Hours Routing
-Set up business hours and after-hours call behavior.
-
-## Ticket Scenarios
-## NOT COMPLETED YET, SO FAR Setup.md IS COMPLETED. 
-Detailed ticket-style documentation for each scenario is available in the `docs/` folder:
-
-- [Ticket 01 - User cannot sign in to 3CX Web Client](docs/ticket-01-login-issue.md)
-- [Ticket 02 - Windows softphone not provisioned](docs/ticket-02-softphone-provision.md)
-- [Ticket 03 - Internal call test between extensions](docs/ticket-03-internal-call.md)
-- [Ticket 04 - Ring Group routing test](docs/ticket-04-ring-group-test.md)
-- [Ticket 05 - Queue routing test](docs/ticket-05-queue-test.md)
-- [Ticket 06 - IVR option routing](docs/ticket-06-ivr-routing.md)
-- [Ticket 07 - After-hours routing test](docs/ticket-07-after-hours-test.md)
+### Office Hours Configuration
+Set up business hours and related call-handling behavior for the lab environment.
 
 ## Screenshots
 
-Project screenshots are organized in the `screenshots/` folder by setup stage and test scenario.
+Project screenshots are organized in the `screenshots/` folder by setup stage and support scenario.
 
 ## Why This Project Matters
 
@@ -91,9 +94,9 @@ This project shows hands-on work related to:
 
 - help desk support workflows
 - VoIP user setup and support
-- client provisioning
+- softphone configuration
+- internal call validation
 - call routing configuration
-- troubleshooting and validation
-- technical documentation
+- troubleshooting and documentation
 
 It was built around the kind of tasks that can come up in IT support, help desk, and systems support roles.
