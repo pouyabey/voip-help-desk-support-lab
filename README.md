@@ -50,7 +50,7 @@ The main areas covered in this project include:
 
 ### Initial Setup
 
-The initial buildout of the lab is documented in [setup.md](setup.md). This includes user creation, softphone setup, ring group creation, queue setup, IVR configuration, and office hours.
+The initial buildout of the lab is documented in [setup.md](Setup.md). This includes user creation, softphone setup, ring group creation, queue setup, IVR configuration, and office hours.
 
 ### Support Scenarios
 
